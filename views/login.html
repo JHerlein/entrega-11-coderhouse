@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <script src="/socket.io/socket.io.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <title>Entrega 10</title>
+</head>
+<body>
+    <div class="header-div">
+        <h1 id="user"></h1>        
+        <form action="/logout" method="get">
+            <input type="submit" value="Log out" 
+                 name="Submit" id="logout-btn" />
+        </form>    
+    </div>
+    <form action="/api/products" method="post" onsubmit=addProductjs()>
+        <ul>            
+            <input type="text" id="ftitle" name="title" placeholder="Title" required>            
+            <input type="text" id="fprice" name="price" placeholder="Price" required>            
+            <input type="text" id="fthumbnail" name="thumbnail" placeholder="Thumbnail" required>
+            <input type="submit" id="submit-btn" value="Submit">
+        </ul>        
+    </form>    
+    <span></span>
+    <form onsubmit=addMessage()>
+        <ul>            
+            <input type="text" id="username" name="mail" placeholder="Mail (Required)" required>            
+            <input type="text" id="texto" name="message" placeholder="Mensaje">
+            <input type="submit" id="submit-btn-msg" value="Submit">
+        </ul>        
+    </form>
+    <div id="messages"></div>
+</body>
+<link rel="stylesheet" href="login.css">
+<script src="products.js"></script>     
+</html>

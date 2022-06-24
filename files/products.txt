@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Hamburgesa",
+    "price": "5",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/street-food-and-food-trucker-1/64/hamburger-fast-food-patty-bread-128.png",
+    "id": 32
+  },
+  {
+    "title": "Pizza",
+    "price": "3",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/street-food-and-food-trucker-1/64/pizza-fast-food-bake-bread-128.png",
+    "id": 2
+  },
+  {
+    "title": "Pollo",
+    "price": "6",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/street-food-and-food-trucker-1/64/fried-chicken-thigh-fast-food-128.png",
+    "id": 3
+  },
+  {
+    "title": "Arroz",
+    "price": "1",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/street-food-and-food-trucker-1/64/rice-dish-food-cook-menu-128.png",
+    "id": 4
+  },
+  {
+    "title": "1",
+    "price": "5",
+    "thumbnail": "1",
+    "id": 5
+  },
+  {
+    "title": "123",
+    "price": "se",
+    "thumbnail": "1",
+    "id": 6
+  }
+]

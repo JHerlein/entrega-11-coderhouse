@@ -1,0 +1,101 @@
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  display: block;
+  /* remove default behavior */
+  appearance: none;
+  -webkit-appearance: none;
+
+  /* usual styles */
+  padding: 10px;
+  border: none;
+  background-color: #3f51b5;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 313px;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 7px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+input[type="password"] {
+  width: 300px;
+  padding: 7px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+
+button {
+  display: block;
+  /* remove default behavior */
+  appearance: none;
+  -webkit-appearance: none;
+
+  /* usual styles */
+  margin-left: 40px;
+  padding: 10px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 313px;
+}
+
+
+
+#logout-btn {    
+  background-color: rgb(128, 0, 0);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 70px;
+}
+
+a{
+  padding:10px
+}
+
+#user{
+  display: inline-block
+}
+
+strong {
+  color: blue;
+}
+
+.time {
+  color: brown;
+}
+
+i {
+  color: green;
+}
+
+.div-form{
+  margin-top:200px;
+  display:flex;
+  align-items: center;
+  justify-content: center;   
+}
+
+body{
+  background-color: grey;
+}
+
+#signon-btn{
+  margin-left: 39px;
+  background-color: green;
+}
